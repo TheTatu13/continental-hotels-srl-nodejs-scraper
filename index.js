@@ -5,7 +5,7 @@
  * an HTML fragment. Parsed with cheerio.
  */
 
-import fetch from "node-fetch";
+import { fetchWithRetry as fetch, assertCanary } from "./src/premium.js";
 import fs from "fs";
 import * as cheerio from "cheerio";
 import { fileURLToPath } from "url";
@@ -321,6 +321,7 @@ async function main() {
     // Step 3: Scrape all jobs from Continental Hotels AJAX endpoint
     const rawJobs = await scrapeAllListings(testOnlyOnePage);
     const scrapedCount = rawJobs.length;
+    assertCanary({ scraped: scrapedCount, existing: existingCount, source: "careers site" });
     console.log(`📊 Jobs scraped from Continental Hotels website: ${scrapedCount}`);
 
     // Step 4: Map raw jobs to Solr model with CIF and company name
