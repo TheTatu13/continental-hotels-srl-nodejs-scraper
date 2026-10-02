@@ -8,5 +8,5 @@
   "apiEndpoint": "/_ajax/get-job-list.php",
   "apiCountryId": "",
   "defaultLocation": "București",
-  "scraperFile": "https://raw.githubusercontent.com/sebiboga/continental-hotels-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
+  "scraperFile": "https://raw.githubusercontent.com/TheTatu13/continental-hotels-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
 }
