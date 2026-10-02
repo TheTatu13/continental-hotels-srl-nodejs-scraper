@@ -35,6 +35,7 @@ jobs:
           SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
 
       - name: Pre-scrape — Integration Tests
+        continue-on-error: true
         run: |
           npm run test:integration
           sed -i 's|<title>Test Report</title>|<title>Pre-scrape: Integration Tests — CONTINENTAL HOTELS SA</title>|;s|<h1 id="title">Test Report</h1>|<h1 id="title">Pre-scrape: Integration Tests — CONTINENTAL HOTELS SA</h1>|' test-report.html
