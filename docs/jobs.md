@@ -7,14 +7,30 @@
 | CIF | 1559737 |
 | Brand | Continental Hotels |
 | Status | activ |
-| Location | Calea GRIVITEI, 143, Bucureşti Sectorul 1, Bucureşti |
+| Location | MUNICIPIUL BUCUREŞTI, SECTOR 1, CALEA GRIVITEI, NR.143 |
 | Website | [https://continentalhotels.ro](https://continentalhotels.ro) |
 | Careers | [https://www.jobs-continentalhotels.ro](https://www.jobs-continentalhotels.ro) |
-| Last Scraped | 2026-06-29 |
+| Last Scraped | 2026-10-02 |
 
-## Current Job Listings (6)
+## Current Job Listings (8)
 
-_Generated: 2026-06-29T10:53:41.386Z_
+_Generated: 2026-10-02T23:55:00.447Z_
+
+### Ajutor Bucătar
+
+- **URL:** [https://www.jobs-continentalhotels.ro/ro/job-details/79-ajutor_bucatar](https://www.jobs-continentalhotels.ro/ro/job-details/79-ajutor_bucatar)
+- **Work Mode:** on-site
+- **Location:** București
+- **Tags:** food & beverage
+- **Status:** scraped
+
+### Ajutor Ospătar
+
+- **URL:** [https://www.jobs-continentalhotels.ro/ro/job-details/76-ajutor_ospatar](https://www.jobs-continentalhotels.ro/ro/job-details/76-ajutor_ospatar)
+- **Work Mode:** on-site
+- **Location:** București
+- **Tags:** food & beverage
+- **Status:** scraped
 
 ### Asistent Vânzări Hotel
 
@@ -28,7 +44,7 @@ _Generated: 2026-06-29T10:53:41.386Z_
 
 - **URL:** [https://www.jobs-continentalhotels.ro/ro/job-details/74-bucatar](https://www.jobs-continentalhotels.ro/ro/job-details/74-bucatar)
 - **Work Mode:** on-site
-- **Location:** România
+- **Location:** București
 - **Tags:** food & beverage
 - **Status:** scraped
 
@@ -36,7 +52,7 @@ _Generated: 2026-06-29T10:53:41.386Z_
 
 - **URL:** [https://www.jobs-continentalhotels.ro/ro/job-details/88-camerista](https://www.jobs-continentalhotels.ro/ro/job-details/88-camerista)
 - **Work Mode:** on-site
-- **Location:** Sibiu, Arad
+- **Location:** Sibiu
 - **Tags:** cazare
 - **Status:** scraped
 
