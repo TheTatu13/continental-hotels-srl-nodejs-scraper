@@ -4,13 +4,13 @@ Thank you for your interest in contributing!
 
 ## 🌱 This Repo Is a Derived Scraper
 
-This repo is **derived from** [job_seeker_ro_spider](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper) (the EPAM template — reference implementation for the peviitor.ro ecosystem).
+This repo is **derived from** [job_seeker_ro_spider](https://github.com/peviitor-scrapers/epam-systems-international-srl-nodejs-scraper) (the EPAM template — reference implementation for the peviitor.ro ecosystem).
 
 **What that means for contributors:**
 
 - **Bug fixes specific to Continental Hotels scraping** (the AJAX endpoint, city extraction from concatenated text, hotel-specific defaults, robots.txt handling) belong here.
 - **Structural improvements** (pipeline architecture, test patterns, caching strategy, config layout, CI workflows) should be proposed in the **EPAM template repo** instead — so every derived scraper benefits.
-- **Looking to create a scraper for a different company?** Fork [the template](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper), not this repo.
+- **Looking to create a scraper for a different company?** Fork [the template](https://github.com/peviitor-scrapers/epam-systems-international-srl-nodejs-scraper), not this repo.
 
 ## Code Style
 
@@ -23,7 +23,7 @@ This repo is **derived from** [job_seeker_ro_spider](https://github.com/sebiboga
 ## Development Setup
 
 ```bash
-git clone https://github.com/sebiboga/continental-hotels-srl-nodejs-scraper.git
+git clone https://github.com/peviitor-scrapers/continental-hotels-srl-nodejs-scraper.git
 cd continental-hotels-srl-nodejs-scraper
 npm install
 npm test
@@ -33,7 +33,7 @@ npm test
 
 ## Reporting Issues
 
-Open a [GitHub Issue](https://github.com/sebiboga/continental-hotels-srl-nodejs-scraper/issues) with:
+Open a [GitHub Issue](https://github.com/peviitor-scrapers/continental-hotels-srl-nodejs-scraper/issues) with:
 - Clear description of the problem
 - Steps to reproduce
 - Expected vs actual behavior
