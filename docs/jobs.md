@@ -14,7 +14,7 @@
 
 ## Current Job Listings (8)
 
-_Generated: 2026-10-03T11:05:09.601Z_
+_Generated: 2026-10-03T15:25:20.246Z_
 
 ### Ajutor Bucătar
 
