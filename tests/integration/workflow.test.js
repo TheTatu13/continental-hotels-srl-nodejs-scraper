@@ -96,7 +96,7 @@ describe('Integration: API Workflow', () => {
       const continental = await solr.getCompanyByCif(COMPANY_CIF);
 
       expect(continental).not.toBeNull();
-      expect(continental.id).toBe(COMPANY_CIF);
+      expect(continental.id).toBe(COMPANY_CIF.padStart(8, '0'));
       expect(continental.company).toBe('CONTINENTAL HOTELS SA');
       expect(continental.brand.toLowerCase()).toBe('continental hotels');
       expect(continental.status).toBe('activ');
@@ -108,7 +108,7 @@ describe('Integration: API Workflow', () => {
     itIfSolr('should have required company model fields', async () => {
       const continental = await solr.getCompanyByCif(COMPANY_CIF);
 
-      expect(continental).toHaveProperty('id', COMPANY_CIF);
+      expect(continental).toHaveProperty('id', COMPANY_CIF.padStart(8, '0'));
       expect(continental).toHaveProperty('company');
       expect(continental.brand.toLowerCase()).toBe('continental hotels');
       expect(continental).toHaveProperty('status');
@@ -208,7 +208,7 @@ describe('Integration: API Workflow', () => {
 
       const solrResult = await solrObj.getCompanyByCif(COMPANY_CIF);
       expect(solrResult).not.toBeNull();
-      expect(solrResult.id).toBe(COMPANY_CIF);
+      expect(solrResult.id).toBe(COMPANY_CIF.padStart(8, '0'));
       expect(solrResult.company).toBe('CONTINENTAL HOTELS SA');
     }, 30000);
 
