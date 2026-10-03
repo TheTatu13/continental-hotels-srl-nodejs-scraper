@@ -156,7 +156,7 @@ describe('Integration: API Workflow', () => {
       expect(job).toHaveProperty('url');
       expect(job).toHaveProperty('title');
       expect(job).toHaveProperty('company', 'CONTINENTAL HOTELS SA');
-      expect(job).toHaveProperty('cif', COMPANY_CIF);
+      expect(job).toHaveProperty('cif', COMPANY_CIF.padStart(8, '0'));
       expect(job).toHaveProperty('status');
       expect(job).toHaveProperty('location');
     }, 15000);
